@@ -1,0 +1,51 @@
+/* CSS for Netflix Header */
+.header_outer_container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(20, 20, 20); */
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition: background-color 0.5s ease-in;
+    z-index: 1;
+}
+
+.nav_black {
+    background-color: rgb(20, 20, 20);
+}
+
+.header_container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left {
+    width: 140%;
+    display: flex;
+}
+
+.header_container ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.header_container li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header_container li:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header_right {
+    display: flex;
+}
